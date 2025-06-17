@@ -45,7 +45,7 @@ function chillHop() {
             cover: "https://png.pngtree.com/png-vector/20190726/ourlarge/pngtree-modern-square-cool-music-for-party-lights-png-image_1629696.jpg",
             id: uuidv4(),
             color: ["#845648","#FDFBDF"],
-            audio: " http://streaming.hotmixradio.fr/hotmixradio-lounge-128.mp3?from=tunein",
+            audio: "http://streaming.hotmixradio.fr/hotmixradio-lounge-128.mp3?from=tunein",
             active: false,
         },
         {
