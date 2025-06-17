@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Rumbera Network Player
+
+This project is a simple music player configured for **rumberanetwork.com.mx**. It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and includes offline support through a service worker.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -64,6 +66,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### Offline Support
+
+To generate a production build with offline capabilities, run:
+
+```bash
+npm run build
+```
+
+The build will include a `service-worker.js` file which enables the player to work offline when hosted at **rumberanetwork.com.mx**.
 
 ### `npm run build` fails to minify
 
